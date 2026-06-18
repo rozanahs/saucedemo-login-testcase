@@ -25,6 +25,7 @@ https://www.saucedemo.com/
 - **Playwright**
 - **TypeScript**
 - **Node.js**
+- **JSON**
 
 ---
 
@@ -41,8 +42,8 @@ https://www.saucedemo.com/
 | 7 | Locked user account | Negative |
 | 8 | Username, password case sensitivity | Edge Case |
 
-Total: 10
-Passed: 10
+Total: 8
+Passed: 8
 Failed: 0
 
 ---
