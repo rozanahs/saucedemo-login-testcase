@@ -1,0 +1,58 @@
+[
+    {
+        "id": "TC001: Valid credentials",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "success",
+        "run": true
+    },
+    {
+        "id": "TC002: Locked out user",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "expected": "error",
+        "run": true
+    },
+    {
+        "id": "TC003: Unregistered user",
+        "username": "random_user",
+        "password": "secret_sauce",
+        "expected": "error",
+        "run": true
+    },
+    {
+        "id": "TC004: Wrong password",
+        "username": "standard_user",
+        "password": "abcde",
+        "expected": "error",
+        "run": true
+    },
+    {
+        "id": "TC005: Empty username",
+        "username": "",
+        "password": "secret_sauce",
+        "expected": "error",
+        "run": true
+    },
+    {
+        "id": "TC006: Empty password",
+        "username": "standard_user",
+        "password": "",
+        "expected": "error",
+        "run": true
+    },
+    {
+        "id": "TC007: Empty username and password",
+        "username": "",
+        "password": "",
+        "expected": "error",
+        "run": true
+    },
+    {
+        "id": "TC008: Case sensitivity",
+        "username": "STANDARD_USER",
+        "password": "SECRET_SAUCE",
+        "expected": "error",
+        "run": true
+    }
+]
